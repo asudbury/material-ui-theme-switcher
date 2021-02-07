@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/material-ui-theme-switcher/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/material-ui-theme-switcher/static/js/main.99323d50.chunk.js",
-    "main.js.map": "/material-ui-theme-switcher/static/js/main.99323d50.chunk.js.map",
+    "main.js": "/material-ui-theme-switcher/static/js/main.3f01d2ad.chunk.js",
+    "main.js.map": "/material-ui-theme-switcher/static/js/main.3f01d2ad.chunk.js.map",
     "runtime-main.js": "/material-ui-theme-switcher/static/js/runtime-main.92ec231a.js",
     "runtime-main.js.map": "/material-ui-theme-switcher/static/js/runtime-main.92ec231a.js.map",
-    "static/js/2.12824a2a.chunk.js": "/material-ui-theme-switcher/static/js/2.12824a2a.chunk.js",
-    "static/js/2.12824a2a.chunk.js.map": "/material-ui-theme-switcher/static/js/2.12824a2a.chunk.js.map",
+    "static/js/2.220c5da2.chunk.js": "/material-ui-theme-switcher/static/js/2.220c5da2.chunk.js",
+    "static/js/2.220c5da2.chunk.js.map": "/material-ui-theme-switcher/static/js/2.220c5da2.chunk.js.map",
     "static/js/3.b790e22d.chunk.js": "/material-ui-theme-switcher/static/js/3.b790e22d.chunk.js",
     "static/js/3.b790e22d.chunk.js.map": "/material-ui-theme-switcher/static/js/3.b790e22d.chunk.js.map",
     "index.html": "/material-ui-theme-switcher/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/material-ui-theme-switcher/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.12824a2a.chunk.js.LICENSE.txt": "/material-ui-theme-switcher/static/js/2.12824a2a.chunk.js.LICENSE.txt"
+    "static/js/2.220c5da2.chunk.js.LICENSE.txt": "/material-ui-theme-switcher/static/js/2.220c5da2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.92ec231a.js",
-    "static/js/2.12824a2a.chunk.js",
+    "static/js/2.220c5da2.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.99323d50.chunk.js"
+    "static/js/main.3f01d2ad.chunk.js"
   ]
 }
