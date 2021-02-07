@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/material-ui-theme-switcher/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/material-ui-theme-switcher/static/js/main.3f01d2ad.chunk.js",
-    "main.js.map": "/material-ui-theme-switcher/static/js/main.3f01d2ad.chunk.js.map",
-    "runtime-main.js": "/material-ui-theme-switcher/static/js/runtime-main.92ec231a.js",
-    "runtime-main.js.map": "/material-ui-theme-switcher/static/js/runtime-main.92ec231a.js.map",
-    "static/js/2.220c5da2.chunk.js": "/material-ui-theme-switcher/static/js/2.220c5da2.chunk.js",
-    "static/js/2.220c5da2.chunk.js.map": "/material-ui-theme-switcher/static/js/2.220c5da2.chunk.js.map",
-    "static/js/3.b790e22d.chunk.js": "/material-ui-theme-switcher/static/js/3.b790e22d.chunk.js",
-    "static/js/3.b790e22d.chunk.js.map": "/material-ui-theme-switcher/static/js/3.b790e22d.chunk.js.map",
-    "index.html": "/material-ui-theme-switcher/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/material-ui-theme-switcher/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.220c5da2.chunk.js.LICENSE.txt": "/material-ui-theme-switcher/static/js/2.220c5da2.chunk.js.LICENSE.txt"
+    "main.css": "/ruleau/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/ruleau/static/js/main.d9438c2f.chunk.js",
+    "main.js.map": "/ruleau/static/js/main.d9438c2f.chunk.js.map",
+    "runtime-main.js": "/ruleau/static/js/runtime-main.ce699539.js",
+    "runtime-main.js.map": "/ruleau/static/js/runtime-main.ce699539.js.map",
+    "static/js/2.79eca9e0.chunk.js": "/ruleau/static/js/2.79eca9e0.chunk.js",
+    "static/js/2.79eca9e0.chunk.js.map": "/ruleau/static/js/2.79eca9e0.chunk.js.map",
+    "static/js/3.10303eda.chunk.js": "/ruleau/static/js/3.10303eda.chunk.js",
+    "static/js/3.10303eda.chunk.js.map": "/ruleau/static/js/3.10303eda.chunk.js.map",
+    "index.html": "/ruleau/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/ruleau/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.79eca9e0.chunk.js.LICENSE.txt": "/ruleau/static/js/2.79eca9e0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.92ec231a.js",
-    "static/js/2.220c5da2.chunk.js",
+    "static/js/runtime-main.ce699539.js",
+    "static/js/2.79eca9e0.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.3f01d2ad.chunk.js"
+    "static/js/main.d9438c2f.chunk.js"
   ]
 }
