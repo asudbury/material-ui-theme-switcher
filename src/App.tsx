@@ -1,26 +1,62 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+/* eslint-disable @typescript-eslint/no-unused-expressions */
+import React, { useState } from "react";
+import CssBaseline from "@material-ui/core/CssBaseline";
+import MuiComponentSamples from "../src/MuiComponentSamples";
 
-function App() {
+import {
+  AppBar,
+  createMuiTheme,
+  Switch,
+  ThemeProvider,
+  Toolbar,
+  Typography,
+} from "@material-ui/core";
+
+const lightTheme = createMuiTheme({
+  palette: {
+    type: "light",
+  },
+  typography: {
+    fontFamily: "Montserrat",
+    button: {
+      textTransform: "none",
+    },
+  },
+});
+
+const darkTheme = createMuiTheme({
+  palette: {
+    type: "dark",
+  },
+  typography: {
+    fontFamily: "Montserrat",
+    button: {
+      textTransform: "none",
+    },
+  },
+});
+
+const App = () => {
+  const [appTheme, setAppTheme] = useState("night");
+  const theme = appTheme === "dark" ? { ...darkTheme } : { ...lightTheme };
+
+  function onChange() {
+    setAppTheme(appTheme === "dark" ? "light" : "dark");
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <CssBaseline>
+        <AppBar position="static" color="default">
+          <Toolbar>
+            <Typography variant="body2">Dark Mode</Typography>
+            <Switch onChange={onChange} />
+          </Toolbar>
+        </AppBar>
+        <MuiComponentSamples />
+      </CssBaseline>
+    </ThemeProvider>
   );
-}
+};
 
 export default App;
